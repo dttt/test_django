@@ -4,7 +4,7 @@ from django.shortcuts import render
 from django.http import HttpResponseRedirect
 from django.shortcuts import render, get_object_or_404
 from django.core.urlresolvers import reverse
-from django.views imort generic
+from django.views import generic
 from polls.models import Poll, Choice
 
 class IndexView(generic.ListView):
